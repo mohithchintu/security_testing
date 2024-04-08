@@ -8,9 +8,9 @@ const SignUp = () => {
         console.log(username);
     }
     return (
-        <div className='grow flex items-center justify-around'>
-            <div className='mb-32'>
-                <h1 className='text-4xl text-center mb-4'>Sign Up</h1>
+        <div className='grow flex items-center justify-center'>
+            <div className='mb-32 border py-6 px-4 border-black rounded-2xl'>
+                <h1 className='text-4xl text-center mb-6'>Sign Up</h1>
                 <form className='max-w-mb' onSubmit={handlesignup}>
                     <input placeholder='Username' type='text' value={username} onChange={(e) => setUsername(e.target.value)}
                         className='w-full border border-gray-600 my-1 py-2 px-3 rounded-2xl'

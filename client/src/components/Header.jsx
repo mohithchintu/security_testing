@@ -5,7 +5,7 @@ const Header = () => {
     const location = useLocation()
     const { pathname } = location;
     return (
-        <nav className='flex border-b mb-5 px-5 h-16 items-center justify-between'>
+        <nav className='flex border-b border-gray-500 mb-5 px-5 h-16 items-center justify-between'>
             <div className='space-x-4'>
                 <Link to='/'>Logo</Link>
                 <Link to='/'>Home</Link>
