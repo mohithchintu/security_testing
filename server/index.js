@@ -6,6 +6,7 @@ import userRoutes from "./routes/user.route.js";
 dotenv.config();
 
 const app = express();
+app.use(express.json());
 
 mongoose
   .connect(process.env.MONGODB_URL)
